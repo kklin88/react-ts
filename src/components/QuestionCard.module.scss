@@ -1,0 +1,21 @@
+.list-item{
+    // background-color: rgb(197, 187, 207);
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding : 10px;
+    margin-bottom: 16px
+    ;
+    //  嵌套 scss
+    .published-span {
+       color:green;
+        // background-color: green;
+    }
+    
+}
+.published{
+    border-style: solid;
+    border-color: green;
+    // background-color: rgb(16, 143, 101);
+}

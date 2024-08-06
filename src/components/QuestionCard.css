@@ -1,0 +1,12 @@
+.list-item{
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    border:solid;
+    background-color: red;
+    
+}
+.published{
+    border-style: solid;
+    border-color: green;
+}
