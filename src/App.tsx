@@ -1,4 +1,5 @@
 import React from 'react'
+// import type { ChangeEvent } from 'react'
 // import useTitle from './hooks/useTitle'
 // import useMouse from './hooks/useMouse'
 // import logo from './logo.svg'
@@ -10,11 +11,16 @@ import React from 'react'
 // import UseMemoDemo from './UseMemoDemo'
 // import UseCallBackDemo from './UseCallBackDemo'
 // import ClosureTrap from './ClosureTrap'
-import StyledComponentsDemo from './StyledComponentsDemo'
+// import StyledComponentsDemo from './StyledComponentsDemo'
+import FormElementDemo from './FormElementsDemo'
 function App() {
   // useTitle('hello hooks') //自定義hook
   // const [x, y] = useMouse()
-
+  // const text = 'val'
+  // const [text, setText] = useState<string>('hello')
+  // function handleChange(event: ChangeEvent<HTMLInputElement>) {
+  //   setText(event.target.value)
+  // }
   return (
     <>
       {/* <List2 /> */}
@@ -22,7 +28,8 @@ function App() {
       {/* <UseCallBackDemo /> */}
       {/* app page {x} {y} */}
       {/* <ClosureTrap /> */}
-      <StyledComponentsDemo />
+      {/* <StyledComponentsDemo /> */}
+      <FormElementDemo />
     </>
   )
 }
